@@ -19,7 +19,12 @@ of particular interest is accessing the image through an array:
 >>> camera = data.camera()
 >>> camera[10,20]
 153
-~~~~
+~~~~~
+
+
+### Postgresql jsonb and ActiveRecord - July 13, 2018
+Postgres has a great jsonblob feature, allowing some functionality of a document store with the power of relational db:
+https://robertbeene.com/rails-4-2-and-postgresql-9-4/
 
 
 
